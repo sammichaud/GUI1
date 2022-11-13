@@ -14,31 +14,23 @@
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="/static/manifest.json">
 </head>
 <title>Matchs</title>
-<script>
-    if (!navigator.serviceWorker.controller) {
-        navigator.serviceWorker.register("/sw.js").then(function (reg) {
-            console.log("Service worker has been registered for scope: " + reg.scope);
-        });
-    }
-</script>
 
 <body class="jumbotron">
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #155C7C;">
-            <a class="navbar-brand" href="#">Matchs</a>
+            <a class="navbar-brand" href="#">Équipes suivies</a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbars"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbars">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Matchs</a>
-                    </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Matchs</a>
+                    </li>
+                    <li class="nav-item active">
                         <a class="nav-link" href="/equipe_suivie.html">Équipes suivies</a>
                     </li>
                     <li class="nav-item">
@@ -55,67 +47,29 @@
         <hr class="mb-4">
         <div class="container">
             <div class="row title">
-                Aujourd'hui
+                <a href="/add_team.html" class="a-reset">
+                    Suivre plus d'équipes
+                </a>
             </div>
-            <a href="/match.html" class="a-reset">
-                <div class="row match">
+            <a href="/team.html" class="a-reset">
+                <div class="row match"  style="padding: 0;">
                     <div class="col-3">
-                        12:00
+                        <img class="team-logo" src="/static/image/Logo_Team_Vitality_2020.png">
                     </div>
                     <div class="col-6">
-                        Vitality - NaVi
-                    </div>
-                    <div class="col-3">
-                        2 : 1
-                    </div>
-                </div>
-            </a>
-            <a href="/match.html" class="a-reset">
-                <div class="row match">
-                    <div class="col-3">
-                        15:00
-                    </div>
-                    <div class="col-6">
-                        Vitality - NaVi
+                        Vitality
                     </div>
                     <div class="col-3">
                     </div>
                 </div>
             </a>
-            <div class="row title">
-                08.11.2022
-            </div>
-            <a href="/match.html" class="a-reset">
-                <div class="row match">
+            <a href="/team.html" class="a-reset">
+                <div class="row match"  style="padding: 0;">
                     <div class="col-3">
-                        15:00
+                        <img class="team-logo" src="/static/image/1200px-NaVi_logo.svg.png">
                     </div>
                     <div class="col-6">
-                        Vitality - NaVi
-                    </div>
-                    <div class="col-3">
-                    </div>
-                </div>
-            </a>
-            <a href="/match.html" class="a-reset">
-                <div class="row match">
-                    <div class="col-3">
-                        18:00
-                    </div>
-                    <div class="col-6">
-                        Vitality - NaVi
-                    </div>
-                    <div class="col-3">
-                    </div>
-                </div>
-            </a>
-            <a href="/match.html" class="a-reset">
-                <div class="row match">
-                    <div class="col-3">
-                        21:00
-                    </div>
-                    <div class="col-6">
-                        Vitality - NaVi
+                        NaVi
                     </div>
                     <div class="col-3">
                     </div>

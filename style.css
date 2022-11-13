@@ -11,22 +11,19 @@
     background-color: #F5F5F5;
     margin-top: 5px;
     box-shadow: 3px 3px  2px lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .team-logo{
-    max-width: 15px;
-    max-height: 20px;
+    max-width: 75px;
+    max-height: 75px;
 }
 
 .a-reset{
     
     color: inherit;
     font-weight: inherit;
-}
-
-.match{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
