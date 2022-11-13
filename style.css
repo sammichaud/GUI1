@@ -1,3 +1,18 @@
+.main{
+    text-align: center;
+    color: #155C7C;
+}
+
+.title{
+    margin-top: 20px;
+}
+
+.match{
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    box-shadow: 3px 3px  2px lightgray;
+}
+
 .team-logo{
     max-width: 15px;
     max-height: 20px;

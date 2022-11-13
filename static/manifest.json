@@ -1,0 +1,24 @@
+{
+  "name": "Matchs",
+  "theme_color": "#155C7C",
+  "background_color": "#155C7C",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/index.html",
+  "description": "",
+  "orientation": "any",
+  "icons": [
+      {
+          "src": "https://picsum.photos/1024/1024.webp",
+          "sizes": "1024x1024"
+      },
+      {
+          "src": "https://picsum.photos/512/512.webp",
+          "sizes": "512x512"
+      },
+      {
+          "src": "https://picsum.photos/144/144.webp",
+          "sizes": "144x144"
+      }
+  ]
+}
